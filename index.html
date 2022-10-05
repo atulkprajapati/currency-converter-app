@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="currency-converter">
+        <div class="segment">
+          <h1 id="heading">Currency Converter</h1>
+        </div>
+        <label for="from">
+          <input type="text" id="from" placeholder="From"/>
+        </label>
+        <label for="to">
+          <input type="text" id="to" placeholder="To"/>
+        </label>
+        <label for="amount">
+          <input type="number" id="amount" placeholder="Enter Amount"/>
+        </label>
+        <button class="red" type="submit"><i class="icon ion-md-lock"></i> Convert </button>
+        <label for="result">
+            <input type="textarea" name="result" id="result" form="#currency-converter" placeholder="Enter details to get the amount" readonly/>
+        </label>
+    </form>
+</body>
+</html>
+
+
+
+
